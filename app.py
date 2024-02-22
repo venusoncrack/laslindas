@@ -9,3 +9,6 @@ image = Image.open('corazoooon.jpg')
 
 st.image(image, caption='Corazon')
 
+
+texto = st.text_input('hola hermosa', 'esta es mi aapppp')
+st.write('el texto escrito es', texto)
